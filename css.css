@@ -1,0 +1,39 @@
+img {
+  height: 100px;
+}
+
+#sidebar {
+  height: 100%;
+  /* 100% Full-height */
+  width: 140px;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #999;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  text-align: left;
+}
+
+li:hover {
+  background-color: yellow;
+  color: blue;
+  cursor: pointer;
+}
+
+#wrapper {
+  border: 1px solid black;
+  display: inline-block;
+  height: 150px;
+  padding: 5px;
+  position: relative;
+  left: 150px;
+  text-align: center;
+  width: 150px;
+}
